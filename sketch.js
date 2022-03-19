@@ -62,11 +62,11 @@
   //music
   function preload() {
       soundFormats('mp3', 'ogg');
-      jumpSound = loadSound('/sounds/jump.mp3');
-      enemySound = loadSound('/sounds/click.mp3');
-      winSound = loadSound('/sounds/win.mp3');
-      deadSound = loadSound('/sounds/dead.mp3');
-      bonusSound = loadSound('/sounds/bonus.mp3');
+      jumpSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/jump.mp3');
+      enemySound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/click.mp3');
+      winSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/win.mp3');
+      deadSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/dead.mp3');
+      bonusSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/bonus.mp3');
   }
 
   function setup() {
