@@ -62,11 +62,11 @@
   //music
   function preload() {
       soundFormats('mp3', 'ogg');
-      jumpSound = loadSound('/sounds/jump.mp3');
-      enemySound = loadSound('/sounds/click.mp3');
-      winSound = loadSound('/sounds/win.mp3');
-      deadSound = loadSound('/sounds/dead.mp3');
-      bonusSound = loadSound('/sounds/bonus.mp3');
+      jumpSound = loadSound('./sounds/jump.mp3');
+      enemySound = loadSound('./sounds/click.mp3');
+      winSound = loadSound('./sounds/win.mp3');
+      deadSound = loadSound('./sounds/dead.mp3');
+      bonusSound = loadSound('./sounds/bonus.mp3');
   }
 
   function setup() {
