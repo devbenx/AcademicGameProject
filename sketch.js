@@ -62,16 +62,16 @@
   //music
   function preload() {
       soundFormats('mp3', 'ogg');
-      jumpSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/jump.mp3');
-      enemySound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/click.mp3');
-      winSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/win.mp3');
-      deadSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/dead.mp3');
-      bonusSound = loadSound('https://devbenx.github.io/Academic_Game_Project/sounds/bonus.mp3');
+      jumpSound = loadSound('https://raw.githubusercontent.com/devbenx/Academic_Game_Project/main/sounds/jump.mp3');
+      enemySound = loadSound('https://raw.githubusercontent.com/devbenx/Academic_Game_Project/main/sounds/click.mp3');
+      winSound = loadSound('https://raw.githubusercontent.com/devbenx/Academic_Game_Project/main/sounds/win.mp3');
+      deadSound = loadSound('https://raw.githubusercontent.com/devbenx/Academic_Game_Project/main/sounds/dead.mp3');
+      bonusSound = loadSound('https://raw.githubusercontent.com/devbenx/Academic_Game_Project/main/sounds/bonus.mp3');
   }
 
   function setup() {
       createCanvas(1024, 576);
-      music = loadSound('/sounds/level.mp3', loaded);
+      music = loadSound('https://raw.githubusercontent.com/devbenx/Academic_Game_Project/main/sounds/level.mp3', loaded);
 
       floorPos_y = height * 3 / 4;
       lives = 3;
